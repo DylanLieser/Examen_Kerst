@@ -205,6 +205,7 @@ void loop() {
 } 
 
 /*
+// functie om reset uit te voeren
 void reset(){
   if (keuze == "reset"){
     String url = String("http://") + serverIP + ":" + serverPort + "/api/energy/reset?dataset=" + dataset + "&apikey=" + API_KEY;
